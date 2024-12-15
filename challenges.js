@@ -25,6 +25,7 @@ const poll = {
 };
 
 // displayResults
+// Here we are passing an object as "this" nad next we can pass "string or "array" argument
 poll.displayResults.call({ answers: [1, 2, 3, 4] });
 
 // Eventlistener

@@ -32,3 +32,12 @@ poll.displayResults.call({ answers: [1, 2, 3, 4] });
 document
   .querySelector('.poll')
   .addEventListener('click', poll.registerNewAnswer.bind(poll));
+
+// Challenge 2
+(function () {
+  const header = document.querySelector('h1');
+  header.style.color = 'red';
+  document.body.addEventListener("click", function() {
+    header.style.color = "blue"
+  })
+  })();

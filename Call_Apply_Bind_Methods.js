@@ -29,7 +29,7 @@ const book = luffthansa.book;
 // Call Method
 // Here we call method .call() and pass object (eurowings) as .this argument
 // Because of that it was able to understand to which object data should be passed
-// Important thing is that function should be used between objects with similar structureor it will not work
+// Important thing is that function should be used between objects with similar structure, otherwise it will not work
 book.call(eurowings, 'Mike', 666);
 console.log(eurowings); // Object { name: "EuroWings", iataCode: "EW", bookings: (1) […] }
 
